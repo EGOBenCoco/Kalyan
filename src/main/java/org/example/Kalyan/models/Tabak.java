@@ -25,7 +25,7 @@ public class Tabak
 
     private String aboutTabak;
 
-    @ManyToOne
-    @JoinColumn(name = "order_id")
-    private Orders orders;
+/*    @ManyToOne
+@JoinColumn(name = "order_id")
+private Orders orders;*/
 }

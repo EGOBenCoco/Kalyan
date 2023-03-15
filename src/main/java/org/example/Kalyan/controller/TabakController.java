@@ -67,11 +67,10 @@ public class TabakController
 
 
     @PutMapping("/tabak")
-    public void editTabak(@RequestBody Tabak tabak)
+    public Tabak update(@RequestBody Tabak tabak)
     {
-        tabakService.editTabak(tabak);
-
-
+        tabakRepository.save(tabak);
+        return tabak;
     }
 
     @DeleteMapping("/tabak/{id}")

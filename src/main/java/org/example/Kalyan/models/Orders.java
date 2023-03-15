@@ -31,8 +31,8 @@ public class Orders
     private Client client;
 
 
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "orders")
-    private List<Kalyan> kalyans;
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "orders")
-    private List<Tabak> tabaks;
+/*    @OneToMany(cascade = CascadeType.ALL,mappedBy = "orders")
+    private List<Kalyan> kalyans;*/
+/*    @OneToMany(cascade = CascadeType.ALL,mappedBy = "orders")
+    private List<Tabak> tabaks;*/
 }

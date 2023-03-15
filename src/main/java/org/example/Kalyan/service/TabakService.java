@@ -8,6 +8,8 @@ import org.example.Kalyan.models.User;
 import org.example.Kalyan.repository.TabakRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 import java.util.Optional;
@@ -47,10 +49,9 @@ public class TabakService
 
 
     @Transactional
-    public Tabak editTabak(Tabak tabak)
+    public void update(Tabak tabak)
     {
-
-        return tabakRepository.save(tabak);
+        tabakRepository.save(tabak);
 
     }
 

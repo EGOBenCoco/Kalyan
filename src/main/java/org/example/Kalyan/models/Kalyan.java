@@ -18,7 +18,7 @@ public class Kalyan
     private String name;
     private String description;
 
-    @ManyToOne
+/*    @ManyToOne
     @JoinColumn(name = "order_id")
-    private Orders orders;
+    private Orders orders;*/
 }
