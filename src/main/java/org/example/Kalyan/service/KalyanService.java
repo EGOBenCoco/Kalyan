@@ -1,4 +1,4 @@
 package org.example.Kalyan.service;
 
-public class KakyanService {
+public class KalyanService {
 }
